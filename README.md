@@ -6,6 +6,20 @@ GitHub Repository: [`termie/interviewprep-2026-10`](https://github.com/termie/in
 
 ---
 
+## Setup & Running Examples
+
+The project requires **Python 3.15** and uses [`uv`](https://github.com/astral-sh/uv) for dependency and environment management.
+
+Run any example directly using `uv run`:
+```bash
+uv run job_queues/async_job_queue.py
+uv run client_server/client_server_websocket.py
+uv run rate_limiters/async_token_bucket.py
+```
+`uv` will automatically create and sync the virtual environment using Python 3.15.
+
+---
+
 ## Topic Guides & Categories
 
 ### 1. Rate Limiters ([`RATE_LIMITERS.md`](https://github.com/termie/interviewprep-2026-10/blob/main/RATE_LIMITERS.md))
